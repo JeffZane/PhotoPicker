@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="me.iwf.photopicker"
+<manifest package="com.nestia.android.photopicker"
           xmlns:android="http://schemas.android.com/apk/res/android"
     >
 
@@ -28,11 +28,11 @@
         >
 
         <activity
-            android:name="me.iwf.photopicker.PhotoPickerActivity"
+            android:name="com.nestia.android.photopicker.PhotoPickerActivity"
             />
 
         <activity
-            android:name="me.iwf.photopicker.PhotoPagerActivity"
+            android:name="com.nestia.android.photopicker.PhotoPagerActivity"
             />
 
     </application>

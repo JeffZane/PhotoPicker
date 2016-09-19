@@ -16,8 +16,8 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 import me.iwf.PhotoPickerDemo.RecyclerItemClickListener.OnItemClickListener;
-import me.iwf.photopicker.PhotoPicker;
-import me.iwf.photopicker.PhotoPreview;
+import com.nestia.android.photopicker.PhotoPicker;
+import com.nestia.android.photopicker.PhotoPreview;
 
 public class MainActivity extends AppCompatActivity {
 

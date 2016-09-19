@@ -104,11 +104,11 @@ PhotoPreview.builder()
     >
     ...
     
-    <activity android:name="me.iwf.photopicker.PhotoPickerActivity"
+    <activity android:name="com.nestia.android.photopicker.PhotoPickerActivity"
       android:theme="@style/Theme.AppCompat.NoActionBar" 
        />
 
-    <activity android:name="me.iwf.photopicker.PhotoPagerActivity"
+    <activity android:name="com.nestia.android.photopicker.PhotoPagerActivity"
       android:theme="@style/Theme.AppCompat.NoActionBar"/>
     
   </application>

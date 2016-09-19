@@ -10,8 +10,8 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import java.io.File;
 import java.util.ArrayList;
-import me.iwf.photopicker.R;
-import me.iwf.photopicker.utils.AndroidLifecycleUtils;
+import com.nestia.android.photopicker.R;
+import com.nestia.android.photopicker.utils.AndroidLifecycleUtils;
 
 /**
  * Created by donglua on 15/5/31.
