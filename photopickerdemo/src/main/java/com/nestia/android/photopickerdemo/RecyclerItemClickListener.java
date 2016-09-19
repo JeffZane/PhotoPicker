@@ -1,4 +1,4 @@
-package me.iwf.PhotoPickerDemo;
+package com.nestia.android.photopickerdemo;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;

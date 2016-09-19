@@ -1,4 +1,4 @@
-package me.iwf.PhotoPickerDemo;
+package com.nestia.android.photopickerdemo;
 
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -15,7 +15,7 @@ import android.view.View;
 import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
-import me.iwf.PhotoPickerDemo.RecyclerItemClickListener.OnItemClickListener;
+
 import com.nestia.android.photopicker.PhotoPicker;
 import com.nestia.android.photopicker.PhotoPreview;
 
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
 
     });
 
-    recyclerView.addOnItemTouchListener(new RecyclerItemClickListener(this, new OnItemClickListener() {
+    recyclerView.addOnItemTouchListener(new RecyclerItemClickListener(this, new RecyclerItemClickListener.OnItemClickListener() {
       @Override public void onItemClick(View view, int position) {
         PhotoPreview.builder()
             .setPhotos(selectedPhotos)
