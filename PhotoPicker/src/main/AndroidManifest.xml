@@ -29,12 +29,10 @@
 
         <activity
             android:name="me.iwf.photopicker.PhotoPickerActivity"
-            android:theme="@style/__picker_customTheme"
             />
 
         <activity
             android:name="me.iwf.photopicker.PhotoPagerActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
             />
 
     </application>
